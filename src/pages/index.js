@@ -5,8 +5,8 @@ const IndexPage = () => {
   const [state, setstate] = useState('');
   const [show, setShow] = useState(true);
   const toggleView = () => {
-    setShow(!show)
     setstate(show ? 'Pal' : '')
+    setShow(!show)
   }
 
   // Similar to componentDidMount and componentDidUpdate:
