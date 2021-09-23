@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 // markup
 const IndexPage = () => {
   const [state, setstate] = useState('');
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const toggleView = () => {
     setShow(!show)
     setstate(show ? 'Pal' : '')
