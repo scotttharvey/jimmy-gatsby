@@ -21,7 +21,7 @@ const IndexPage = () => {
       <title>Home Page</title>
       <h1>Hello ther{state ? 'ɘ' : 'e'}</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto possimus adipisci officia. Labore maxime numquam quas quae! Vero animi adipisci labore incidunt quod modi eius expedita itaque unde fuga?</p>
-      <button onClick={() => toggleView()}>Nicely done {state}</button>
+      <button onClick={() => toggleView()}>Very nice {state}</button>
     </main>
   )
 }
